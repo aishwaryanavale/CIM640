@@ -4,27 +4,27 @@
 ## Aim:
 To enable the user to have spa or massage anywhere he/she wishes.
 
-![myimage](/download.jpeg)
+![imageforspa](/download.jpeg)
 
 
 ## Steps:
 
-Take the **Instant Spa towel**.
+* Take the **Instant Spa towel**.
 
-Wrap it around yourself.
+* Wrap it around yourself.
 
-It will take you to an invisible tent.
+* It will take you to an invisible tent.
 
-There will be a screen on the spa/massage table.
+* There will be a screen on the spa/massage table.
 
-Choose which spa/massage you want among the list of options.
+* Choose which spa/massage you want among the list of options.
 
-A person will come to give you a massage/spa.
+* A person will come to give you a massage/spa.
 
 **Enjoy your spa!!**
 
-Get up when done.
+* Get up when done.
 
-The screen will appear again.
+* The screen will appear again.
 
-Press **exit** to come out of the tent to the place you were in before.
+* Press **exit** to come out of the tent to the place you were in before.
