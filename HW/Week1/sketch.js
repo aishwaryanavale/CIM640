@@ -6,13 +6,18 @@ var trueFalse = true;
 var sentences = "I'm a sentence";
 var setupVariable = 5;
 
+var charColor = "orange";
+var eyeSize = 20;
+
+var facePosX = 100;
+var facePosY = 100;
+
+
 function setup() {
   // put setup code here
   createCanvas(400,400);
-  background(0);
-  background(255,0,0);
-  background("orange");
-  background("#333333");
+  background("black");
+
 
   console.log(a + num1);
   console.log(a-num1);
@@ -29,6 +34,9 @@ function setup() {
 }
 
 function draw() {
+  background("black");
+  facePosX = mouseX;
+  facePosY = mouseY;
   // put drawing code here
   stroke('black');
   strokeWeight(num1);
@@ -37,19 +45,23 @@ function draw() {
 
   strokeWeight(setupVariable);
 
-  fill('orange');
+  fill(charColor);
   //eyes
-  ellipse(120,120,50,50);
-  ellipse(180,120,50,50);
+  ellipse(facePosX,facePosY,eyeSize,eyeSize);
+  ellipse(facePosX + 60,facePosY,eyeSize,eyeSize);
   //mouth
-  rect(120,320,180,20);
+  rect(facePosX,320,180,20);
   //mole
 
   stroke('green');
   strokeWeight(5);
   point(width/2,height/2);
 
-  line(120,330,300,330);
+  line(facePosX,330,facePosX,330);
   //pacperson
   arc(100,200,100,100,QUARTER_PI, PI + HALF_PI + QUARTER_PI);
+}
+
+function mousePressed (){
+  charColor = "blue"
 }
